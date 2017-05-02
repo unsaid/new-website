@@ -1,0 +1,356 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+
+/*���������ʾ��ͬ��ȥ����ɫ�߿�*/
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+/*ȥ�������滻Ԫ�ؿհ׷�϶*/
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+/*��ֹ�϶� Ӱ�첼��*/
+textarea {
+    resize: none;
+}
+
+/*ȥ�������滻Ԫ�ؿհ׷�϶*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*���� unicode */
+    color: #666;
+    background: #fff;
+    font-family: "Microsoft Yahei";
+}
+
+/*�������*/
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+}
+/*������ͼ��*/
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+.col-red {
+    color: #C81623 !important;
+}
+
+/*������*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.al {
+    text-align: left;
+}
+
+.ac {
+    text-align: center;
+}
+
+.ar {
+    text-align: right;
+}
+/*html,body{margin:0;height:100%;}*/
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x:hidden;
+    /*overflow-y:hidden;*/
+    box-sizing: border-box;
+}
+.global{
+    margin: auto;
+}
+.head{
+    position: relative;
+}
+.bg img{
+    width: 100%;
+    vertical-align: top;
+}
+.banner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.banner img{
+    width: 100%;
+    height: 80px;
+}
+.banner .right ul{
+    position: absolute;
+    right: 118px;
+    top:25px
+}
+.banner .right li{
+    float: right;
+    padding-left: 50px;
+    font-size: 16px;
+    color: #252525;
+}
+.banner .right a:hover{
+
+}
+.logo{
+   position: fixed;
+    left: 104px;
+    top: 2px;
+    z-index: 101;
+
+}
+.them img{
+    width: 338px;
+    height: 162px;
+    position: absolute;
+    left: 190px;
+    top: 143px;
+}
+.ios img{
+    width: 180px;
+    height: 46px;
+    position: absolute;
+    left: 172px;
+    top:342px;
+}
+.android img{
+    width: 180px;
+    height: 46px;
+    position: absolute;
+    left: 368px;
+    top: 342px;
+}
+.three{
+    display: inline-block;
+    float: right;
+}
+.three img{
+    width: 377px;
+    height: 310px;
+    position: absolute;
+    right: 140px;
+    top: 136px;
+}
+.mid1 .shetuan,.mid2 .huati,.mid3 .shipin,.mid4 .yue{
+    margin: 70px   auto 16px;
+    text-align: center;
+}
+.mid1 .shetuan img,.mid2 .huati img,.mid3 .shipin img,.mid4 .yue img{
+    display: inline-block;
+    margin-top: -14px;
+}
+.mid1,.mid2,.mid3,.mid4{
+    text-align: center;
+}
+.mid1 .shetuan p,.mid2 .huati p,.mid3 .shipin p,.mid4 .yue p{
+    display: inline-block;
+    font-size: 32px;
+    color: #252525;
+}
+.mid1 .stz,.mid2 .ubb,.mid3  .shai ,.mid4 .du{
+    font-size: 22px;
+    color: #252525;
+}
+.mid1 .yin,.mid2 .tai, .mid3 .xiu,.mid4 .friend{
+    font-size:16px;
+    color: #8C8C8C;
+    margin: 16px 0 62px 0;
+    display: inline-block;
+}
+.mid2{
+    /*overflow: hidden;*/
+    /*display: block;*/
+    height: 694px;
+}
+.mid2 .huabig{
+    /*display: inline-block;*/
+    position: relative;
+}
+.mid2 .huabig .right{
+    position: absolute;
+    right: 208px;
+
+}
+.mid2 .huabig .line{
+    position: absolute;
+    right: 488px;
+    top:216px;
+}
+.mid2 .huabig  .huati15{
+    position: absolute;
+    right: 536px;
+    top: 249px;
+
+}
+.mid2 .huabig  .huati16{
+    position: absolute;
+    left: 402px;
+    top: 249px;
+
+}
+.mid2 .huabig  .huati17{
+    position: absolute;
+    left: 555px;
+    top: 128px;
+
+}
+.mid2 .huabig  .huati18{
+    position: absolute;
+    left: 275px;
+    top: 128px;
+
+}
+.mid3 .shibig{
+    position: relative;
+}
+.mid3 .shibig .hi{
+    position: absolute;
+    left: 556px;
+    top: 8px;
+}
+.mid3 .shibig .lin{
+    position: absolute;
+    right: 332px;
+    bottom: 38px;
+}
+.mid4 .yuebig{
+    position: relative;
+}
+.mid4 .yuebig .people{
+    position: absolute;
+    left: 329px;
+    bottom: 52px;
+}
+.mid4 .yuebig .peoplea{
+    position: absolute;
+    right: 268px;
+    top: 97px;
+}
+ .bottom{
+     width: 100%;
+    margin-top: 149px;
+    height: 200px;
+     background-color: #F2F2F2;
+     /*overflow-y: hidden;*/
+}
+ .bottom .logos{
+    padding-top: 38px;
+    margin-left: 56px;
+    display: inline-block;
+}
+ .bottom .suprise{
+    display: inline-block;
+    padding-top: 68px;
+    font-size: 20px;
+    color: #252525;
+}
+ .bottom .right {
+     float: right;
+     padding-top: 48px;
+     margin-right: 72px;
+     display: inline-block;
+ }
+.bottom  .our{
+    padding-bottom: 22px;
+    display: inline-block;
+    font-size: 20px;
+    color: #252525;
+    font-weight: bold;
+
+}
+ .bottom .right .nr span{
+    line-height: 14px;
+    height: 14px;
+    font-size: 14px;
+}
+.bottom .ban{
+    margin-left: 66px;
+    margin-top: 12px;
+}
+#iosxia{
+    animation-delay: 0.5s;
+}
+#androidx{
+    animation-delay: 1.5s;
+}
+#threes{
+    animation-delay: 3s;
+}
+.second ,.third,.fourth,.fifth{
+    padding: 20px 100px;
+}
+@media (min-width:1200px){
+    .global{
+        width: 100%;
+    }
+}
+
+
+
+
